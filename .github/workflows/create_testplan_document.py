@@ -23,9 +23,9 @@ def test_template(testplanMD, test_group):
 
     testplanMD.new_header(level=2, title=f'{tgroup_number} {tgroup_name}')
     #testplanMD.new_header(level=2, title=f'{tgroup_name}')
-    testplanMD.new_header(level=3, title='Rationale for test', add_table_of_contents="n")
+    testplanMD.new_header(level=3, title='Rationale for test')
     testplanMD.new_paragraph(rationale)
-    testplanMD.new_header(level=3, title='Test setup', add_table_of_contents="n")
+    testplanMD.new_header(level=3, title='Test setup')
     testplanMD.new_paragraph(test_setup)
     testplanMD.new_header(level=4, title=f'Possible areas: {areas}')
     testplanMD.new_header(level=4, title=f'Technical contact: {tcontact}')
