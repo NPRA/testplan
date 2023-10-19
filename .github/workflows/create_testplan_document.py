@@ -1,7 +1,7 @@
 import datetime
 
 def run():
-    current_time = datetime.datetime.now()
+    current_time = str(datetime.datetime.now())
 
     with open("testplan.md","w") as markdown_testplan:
         markdown_testplan.write("# This is a test\n")
