@@ -22,12 +22,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-        with:
-          repository: jcdan3/devops
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: ${{ env.DEVOPS_DIR }}
-
-
+      
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
@@ -38,4 +33,4 @@ jobs:
           echo test, and deploy your project.
       # Runs a python script 
       - name: Run the python script
-        run: python ${{ env.DEVOPS_DIR }}/create_testplan_document.py
+        run: python create_testplan_document.py
