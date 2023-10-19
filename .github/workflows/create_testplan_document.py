@@ -6,7 +6,7 @@ def run():
 
     mdFile = mdutils.MdUtils(file_name='testplan.md',title='Markdown of testplan for Jammertest')
     mdFile.new_header(level=1, title='Jammertest 2024 Testplan')
-    mdFile.new_inline_image("NPRA logo", "/graphics/logo NPRA.jpg")
+    mdFile.new_line(mdFile.new_inline_image("NPRA logo", "/graphics/logo NPRA.jpg"))
 
     mdFile.new_paragraph(""" This is a test to add a significant block of text
                          and this is the second line 
