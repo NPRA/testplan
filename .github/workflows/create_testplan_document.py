@@ -73,7 +73,7 @@ def run():
     test_template(testplanMD, List_of_tests["Test groups"][0])
 
     #testplanMD.new_table_of_contents(table_title='Contents', depth=3)
-    testplanMD.new_table_of_contents(table_title='Contents', depth=2)
+    #testplanMD.new_table_of_contents(table_title='Contents', depth=2)
     testplanMD.create_md_file()
 
  
