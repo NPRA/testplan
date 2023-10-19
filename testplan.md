@@ -16,6 +16,8 @@ Contents
 
 <img src="graphics/NPRA.png" width="200"/>
 
+<img src="graphics/NPRA.png" width="200"/>
+
  This is a test to add a significant block of text
                          and this is the second line 
                          and third line
