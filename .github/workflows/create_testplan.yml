@@ -32,8 +32,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       # Runs a python script 
-      - name: Run the python script
-        run: python create_testplan_document.py
+      - name: Run the python script 
+        run: python .github\workflows\create_testplan_document.py
       # Code to commit the file created by the python script 
       - name: Commit changes
         run: |
