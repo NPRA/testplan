@@ -2,19 +2,8 @@
 Markdown of testplan for Jammertest
 ===================================
 
-Contents
-========
-
-* [Jammertest 2024 Testplan](#jammertest-2024-testplan)
-	* [1 Continuous stationary low power jamming with commercially available jammers](#1-continuous-stationary-low-power-jamming-with-commercially-available-jammers)
-		* [Test setup](#test-setup)
-		* [1.1 Jammer S1.1](#11-jammer-s11)
-		* [1.2 Jammer S1.2](#12-jammer-s12)
-
 # Jammertest 2024 Testplan
 
-
-<img src="graphics/NPRA.png" width="200"/>
 
 <img src="graphics/NPRA.png" width="200"/>
 
