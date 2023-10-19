@@ -34,3 +34,14 @@ jobs:
       # Runs a python script 
       - name: Run the python script
         run: python create_testplan_document.py
+      # Code to commit the file created by the python script 
+        - name: Commit changes
+        run: |
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "GitHub Actions"
+          git add testplan.md
+          git commit -m "[skip actions] Updated markdown file"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
