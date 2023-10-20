@@ -1,5 +1,41 @@
 \documentclass{article}
+%% Fix so sections are manually numbered
+\setcounter{secnumdepth}{0}
+%% Stop text from indenting
+\setlength\parindent{0pt}
+
+%% Graphics are stored in the graphics path
+\usepackage{graphicx}
+\graphicspath{ {./graphics/} }
+
+%% Making hyperlinks in the table of contents
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=black
+}
+
+\title{Jammertest Testplan}
+\author{Jammertest Consortium}
+\date{ }
 
 \begin{document}
-My first \LaTeX~document!
+\maketitle
+\includegraphics[scale=0.1]{graphics/NPRA.png}
+
+\tableofcontents
+
+
+
+
+\section{Introduction}
+
+
+\section{Spesifications of tests}
+The sections below lists all test in the 
+\input{tests}
 \end{document}
+
