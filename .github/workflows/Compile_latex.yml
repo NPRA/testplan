@@ -10,4 +10,15 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
-     
+      # Code to commit the file created by the python script 
+      - name: Commit changes
+        run: |
+          cp main.pdf Testplan.pdf
+          git config --global user.email "no-reply@github.com"
+          git config --global user.name "GitHub Actions"
+          git add Testplan.pdf
+          git commit -m "[skip actions] Updated Jammertest testfile"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
