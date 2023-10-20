@@ -53,7 +53,7 @@
                 "Tests": 
                 [
                     {
-                        "Test id": "1.1",
+                        "Test id": "2.1",
                         "Test name": "Jammer S1.1",
                         "Test text": "Test with jammer S1.1",
                         "Power or power range": "1w",
@@ -62,7 +62,7 @@
                         "Test comment": "Spesification of jammer can be found list of jammers"
                     },
                     {
-                        "Test id": "1.2",
+                        "Test id": "2.2",
                         "Test name": "Jammer S1.2",
                         "Test text": "Test with jammer S1.1",
                         "Power or power range": "1w",
