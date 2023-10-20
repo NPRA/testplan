@@ -1,1 +1,7 @@
 tests.tex
+Latex/main.aux
+Latex/main.fdb_latexmk
+Latex/main.fls
+Latex/main.log
+Latex/main.out
+Latex/main.toc
