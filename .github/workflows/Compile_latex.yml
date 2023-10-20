@@ -13,7 +13,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: main.tex
+          root_file: ./Latex/main.tex
       # Code to commit the file created by the python script 
       - name: Commit changes
         run: |
